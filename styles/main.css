@@ -1,9 +1,11 @@
 body{
-    background-color: #5A639C;
+    background-color: #1A1A1D;
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
+    background-image: url(/images/stars.jpg);
+    background-position: sticky;
 }
 
 nav{
@@ -14,7 +16,7 @@ nav{
 
 nav ul {
     list-style-type: none;
-    background-color: #7776B3; 
+    background-color: #6A1E55; 
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -30,15 +32,15 @@ nav li a {
     padding: 18px 20px;
     color: white;
     text-align: center;
-    text-decoration: none;
-    background-color: #7776B3;
-    float: left;
+    text-decoration: underline;
+    background-color: #6A1E55;
+    float: right;
     font-weight: bold;
     border-radius: 5px;
 }
 
 nav img {
-    background-color: #7776B3;
+    background-color: #6A1E55;
     padding: 12px 10px;
     margin: 0 10px;
     font-weight: bold;
@@ -50,6 +52,12 @@ nav li a:hover{
     background-color: #5A639C;
 }
 
+#fold{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 25px;
+}
+
 @media only screen and (max-width: 768px) {
     nav img{
         height: 20px;
@@ -58,5 +66,9 @@ nav li a:hover{
 
     nav li a {
         padding: 14px 20px;
+    }
+
+    #fold{
+        margin-top: 55%;
     }
   }
