@@ -5,7 +5,6 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     background-image: url(/images/stars.jpg);
-    background-position: sticky;
 }
 
 nav{
@@ -52,10 +51,26 @@ nav li a:hover{
     background-color: #5A639C;
 }
 
+section{
+    border-radius: 15px;
+}
+
+section h2{
+    background-color: #6A1E55;
+    padding: 10px;
+    margin: 0px;
+}
+
 #fold{
     text-align: center;
     margin-top: 20%;
     font-size: 25px;
+}
+
+#aboutMe{
+    background-color: #1A1A1D;
+    border-radius: 5px;
+    margin: 20% 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -70,5 +85,9 @@ nav li a:hover{
 
     #fold{
         margin-top: 55%;
+    }
+
+    #aboutMe{
+        margin-top: 50%;
     }
   }
