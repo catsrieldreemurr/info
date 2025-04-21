@@ -4,3 +4,5 @@ This is a simple HTML/CSS/JS website made as an introduction of myself. I decide
 This project is mostly for fun :)
 
 
+# IMAGE CREDITS: 
+Background Image: https://pixabay.com/photos/stars-sky-night-starry-sky-1845140/ (Pexels on Pixabay)

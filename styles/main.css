@@ -101,8 +101,18 @@ section h2{
     justify-content: center;
 }
 
-.imDiv p{
-    padding-left: 100px;
+.textNextToImage{
+    padding-left: 2%;
+}
+
+.highlightPurple{
+    color:#A64D79;
+    font-weight: bold;
+}
+
+.highlightFancy{
+    color: #A64D79;
+    text-shadow: 2px 2px 2px purple;
 }
 
 @media only screen and (max-width: 768px) {
@@ -131,5 +141,21 @@ section h2{
     .box{
         margin-top: 20px;
         width: 95%;
+    }
+
+    .imgDiv img{
+        width: 80%;
+        height: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    .imgDiv{
+        display: inline;
+        justify-content: center;
+    }
+
+    .textNextToImage{
+        text-align: center;
     }
   }
