@@ -71,7 +71,7 @@ section h2{
 #aboutMe{
     background-color: #1A1A1D;
     border-radius: 5px;
-    margin: 20% 0;
+    margin-top: 20%;
 }
 
 #aboutMe h2{
@@ -113,6 +113,16 @@ section h2{
 .highlightFancy{
     color: #A64D79;
     text-shadow: 2px 2px 2px purple;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.newParagraph{
+    margin-top: 50px;
 }
 
 @media only screen and (max-width: 768px) {
