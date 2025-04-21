@@ -68,13 +68,17 @@ section h2{
     font-size: 25px;
 }
 
-#aboutMe{
+.sections{
     background-color: #1A1A1D;
     border-radius: 5px;
-    margin-top: 20%;
 }
 
-#aboutMe h2{
+#aboutMe{
+    margin-top: 20%;
+    padding-bottom: 5%;
+}
+
+.sections h1{
     text-align: center;
 }
 
@@ -93,6 +97,7 @@ section h2{
 
 #aboutMe img{
     border-radius: 15px;
+
 }
 
 .imgDiv{
@@ -124,6 +129,7 @@ footer{
 .newParagraph{
     margin-top: 50px;
 }
+
 
 @media only screen and (max-width: 768px) {
     nav img{
@@ -167,5 +173,9 @@ footer{
 
     .textNextToImage{
         text-align: center;
+    }
+
+    #dni{
+        padding-top: 10%;
     }
   }
