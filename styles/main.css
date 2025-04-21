@@ -90,7 +90,7 @@ section h2{
 
 .box{
     justify-content: center;
-    width: 49%;
+    width: 30%;
     height: auto;
     text-align: center;
 }
@@ -128,6 +128,10 @@ footer{
 
 .newParagraph{
     margin-top: 50px;
+}
+
+#dni{
+    background-color: #3B1C32;
 }
 
 
