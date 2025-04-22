@@ -16,14 +16,22 @@ let imageReferences = [
         path: "../images/interests/Forsaken.png",
         text: "Forsaken"
     }, 
-    { // Gamedev
-        path: "../images/interests/Gamedev.png",
-        text: "Game Development"
-    }, 
     { // Pressure
         path: "../images/interests/Pressure.png",
         text: "Pressure"
     }, 
+    { // phighting
+        path: "../images/interests/Phighting.png",
+        text: "Phighting"    
+    },
+    {//DW 
+        path: "../images/interests/DandysWorld.png",
+        text: "Dandy's World"    
+    },
+    { // Gamedev
+        path: "../images/interests/Gamedev.png",
+        text: "Game Development"
+    }
 ]
 
 let currentImage = 0;
@@ -35,7 +43,7 @@ interestImage.addEventListener("click", () => {
     else {
         currentImage = 0
     }
-    console.log(currentImage)
+    
     interestImage.src = imageReferences[currentImage].path;
     interestText.innerHTML = imageReferences[currentImage].text;
 })
